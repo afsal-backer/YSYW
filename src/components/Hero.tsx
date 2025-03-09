@@ -28,13 +28,12 @@ export function Hero() {
             className="mt-16"
           >
             <div className="relative mx-auto border-8 border-foreground rounded-[3rem] shadow-xl bg-foreground max-w-[350px]">
-              <div className="relative bg-background rounded-[2.5rem] overflow-hidden h-[600px] w-[300px]">
-                {/* Placeholder for app screenshot */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                  <p className="text-lg font-medium text-center px-6">
-                    App Screenshot Placeholder
-                  </p>
-                </div>
+              <div className="relative bg-background rounded-[2.5rem] overflow-hidden h-[600px] w-[300px] flex items-center justify-center">
+                <img 
+                  src="/YSYW.png" 
+                  alt="You Snooze You Win App" 
+                  className="w-full h-auto object-contain"
+                />
               </div>
             </div>
           </motion.div>
