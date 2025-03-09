@@ -35,10 +35,10 @@ export function Contact() {
               Send us an email and we'll get back to you as soon as possible.
             </p>
             <a
-              href="mailto:contact@yousnoozewin.com"
+              href="mailto:afsalbacker@icloud.com"
               className="text-primary font-medium hover:underline"
             >
-              contact@yousnoozewin.com
+              afsalbacker@icloud.com
             </a>
           </motion.div>
         </div>
