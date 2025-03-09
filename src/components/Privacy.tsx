@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "./ui/container";
 import { motion } from "framer-motion";
 import { Shield, Lock, Eye } from "lucide-react";
@@ -37,7 +36,7 @@ export function Privacy() {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Data Protection</h3>
                 <p className="text-muted-foreground">
-                  We respect user data; usage stats are stored locally on your device. No data is shared externally with third parties.
+                  We respect user data; usage stats are stored locally on your device or securely in our protected servers. No data is shared externally with third parties.
                 </p>
               </div>
             </motion.div>

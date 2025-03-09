@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "./ui/container";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
@@ -39,7 +38,7 @@ export function Contact() {
               href="mailto:contact@yousnoozewin.com"
               className="text-primary font-medium hover:underline"
             >
-              afsalbacker@icloud.com
+              contact@yousnoozewin.com
             </a>
           </motion.div>
         </div>
